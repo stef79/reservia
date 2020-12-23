@@ -1,0 +1,20 @@
+.divLeft60px
+{
+    width: 60%;
+    float: left;
+}
+
+ .divRight40px 
+ {
+     width: 40%;
+     float:right;
+ } 
+ li
+ {
+     display: inline-block;
+     margin-left: 6px;
+ }
+ ul
+ {
+     float:right;
+ }
