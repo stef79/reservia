@@ -148,6 +148,8 @@ input
     border: solid 3px white;
     border-radius: 10px;
     display: inline-block;
+    float: left;
+    
 }
 
 .div-footer-herbergement
