@@ -141,21 +141,28 @@ input
     margin-bottom: 10px;
 }
 
+
 .div-hebergement
 {
-    height: 160px;
-    width: 160px;
+    display: flex; 
+}
+
+.div-location
+{
+    height: 180px;
+    width: 180px;
     border: solid 3px white;
     border-radius: 10px;
     display: inline-block;
-    float: left;
+    margin: 15px;
     
 }
 
-.div-footer-herbergement
+.div-footer-location
 {
     background-color: white;
     display: block;
+    height: 50px;
 }
 
 .arrondie {
@@ -167,13 +174,20 @@ input
 .rating
 {
     text-decoration: none;
-   font-size: 1.2em;
+    font-size: 1.2em;
+        height: 30px;
 }
 .rating-blue {
    color: #0065FC;
+   
 }
 
 .rating-gray {
     color: grey;
  }
  
+ .img-location
+ {
+     height: 100px;
+     width: 180px;
+ }
