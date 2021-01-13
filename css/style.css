@@ -191,3 +191,9 @@ input
      height: 100px;
      width: 180px;
  }
+
+ .div-les-plus-populaires
+{
+    display: flex; 
+}
+
