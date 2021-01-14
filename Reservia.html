@@ -5,46 +5,40 @@
             <meta charset="UTF-8" />
             <link rel="stylesheet" href="css/style.css" />
             <link rel="preconnect" href="https://fonts.gstatic.com">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap" rel="stylesheet">
             <title>Reservia</title>
-            </head>
+        </head>
 
-            <!--en tête-->
+        <body>
 
-            <body>
-                <div id="header">
-                    <img
-                    src="images/logo/Reservia.svg"/>
-                 <nav>
+            <header>
+                <img src="images/logo/Reservia.svg" alt="logo"/>
+                <nav>
                     <ul>
                         <li> <a href="#hebergement">hebergement</a> </li>
                         <li> <a href="#activites">activite</a> </li>
                         <li> <a href="#sinscire">s'inscire</a> </li>
                     </ul>
-                  </nav>
-                    
-                </div>
+                </nav>                
+            </header>
+
+            <main>
 
                 <!--section recherche-->
-                <div id="recherche">
+                <section id="recherche">
                     <label class="label-bold">Trouvez votre hébergement pour des vacances de rêves</label></br>
                     <label>En plein centre ville ou en pleine nature</label></br> 
                     <i class="fas fa-map-marker-alt bcg-gray map-gray"></i>
                     <input type="search" name="ville" placeholder="Marseille,France">
-                    
-
-
-
                     <button class="btn-Recherche">
                         <i class="recherche">
                         </i>
                         Recherche
                     </button>
-                </div>
-                 
+                </section>
 
-                <!--filtres-->
+                <!--section filtres-->
                 <section id="filtres">
 
                     
@@ -73,12 +67,13 @@
                     <label><i class="fas fa-info-circle info-icone"></i> Plus de 500 logements sont disponibles dans cette ville</label>        
                 </section>
 
-                <div id="hebergements" class="div-hebergement">
+                <!--section hebergements-->
+                <section id="hebergements" class="div-hebergement">
                     
-                    <div id="dans la ville" class="divLeft60px div-gray">
+                    <section id="danslaville" class="divLeft60px div-gray">
                         <h3>hébergement à Marseille</h3>
 
-                        <div id="location1" class="div-location">
+                        <article id="location1" class="div-location">
                             <img class="arrondie img-location" src="images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
                                 alt="Auberge de la cannebière"
                                 />
@@ -93,7 +88,7 @@
                                     <a class="rating rating-gray" href="#1" title="Donner 1 étoile">☆</a>
                                 </div>
                             </div>  
-                        </div>
+                        </article>
 
                         <div id="location2" class="div-location">
                             <img class="arrondie img-location" src="images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
@@ -179,55 +174,43 @@
                                 </div>
                             </div>  
                         </div>
-                </div>
-
-            <div id="populaire" class="div-les-plus-populaires"></div>
-                            
-                   <div id="les plus populaire" class="divRight35px div-gray">
-                        <h3>les plus populaire</h3>
-                        <div id="location7" class="div-location">
-                            <img class="arrondie img-location" src="images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                                alt="Hôtel le soleil du matin"
-                                />
-                            <div class="div-footer-location">
-                                <label class="label-bold">Hôtel le soleil du matin</label>
-                                <label>Nuit à partir de 128&euro;</label>
-                                <div>
-                                    <a class="rating rating-blue" href="#5" title="Donner 5 étoiles">☆</a>
-                                    <a class="rating rating-blue" href="#4" title="Donner 4 étoiles">☆</a>
-                                    <a class="rating rating-blue" href="#3" title="Donner 3 étoiles">☆</a>
-                                    <a class="rating rating-blue" href="#2" title="Donner 2 étoiles">☆</a>
-                                    <a class="rating rating-gray" href="#1" title="Donner 1 étoile">☆</a>
-                                </div>
-                            </div>  
-                        </div>
-                   </div>    
-
-                        
-
-
-
-
-
-
-
-
                     </div>
+                </section>  
 
-                </div>
+                <!-- section populaires -->
+                <section id="populaires" class="divRight35px div-gray">
+                    <h3>les plus populaire</h3>
+                    <div id="location7" class="div-location">
+                        <img class="arrondie img-location" src="images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                            alt="Hôtel le soleil du matin"
+                            />
+                        <div class="div-footer-location">
+                            <label class="label-bold">Hôtel le soleil du matin</label>
+                            <label>Nuit à partir de 128&euro;</label>
+                            <div>
+                                <a class="rating rating-blue" href="#5" title="Donner 5 étoiles">☆</a>
+                                <a class="rating rating-blue" href="#4" title="Donner 4 étoiles">☆</a>
+                                <a class="rating rating-blue" href="#3" title="Donner 3 étoiles">☆</a>
+                                <a class="rating rating-blue" href="#2" title="Donner 2 étoiles">☆</a>
+                                <a class="rating rating-gray" href="#1" title="Donner 1 étoile">☆</a>
+                            </div>
+                        </div>  
+                    </div>
+                </section>
 
-                <div id="activite à Marseille">
+                <!-- section activites -->
+                <section id="activites">
                     <h2>activite à Marseille</h2>
-                    </div>
-                </div>
+                </section>
 
-                <div id="footer">
-                    <h2>footer</h2>
+            </main>
 
-                </div>
-                    
-                    
-            </body>
+            <footer>
+                <h2>footer</h2>
+
+            </footer>               
+                
+        </body>
     </html>
 
 
