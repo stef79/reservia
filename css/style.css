@@ -144,7 +144,7 @@ input
 
 .div-hebergement
 {
-    display: flex; 
+    display: inline-block;
 }
 
 .div-location
@@ -170,18 +170,7 @@ input
     -webkit-border-radius:7px;
     border-radius:7px;
     }
-
-.rating
-{
-    text-decoration: none;
-    font-size: 1.2em;
-        height: 30px;
-}
-.rating-blue {
-   color: #0065FC;
-   
-}
-
+    
 .rating-gray {
     color: grey;
  }
@@ -194,6 +183,11 @@ input
 
  .div-les-plus-populaires
 {
-    display: flex; 
+    flex-direction: column;
 }
 
+.stars
+
+{
+    color: #0065FC;
+}
