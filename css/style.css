@@ -57,7 +57,10 @@ html,body
     border-color: #f2f2f2;
     border-radius: 50px;
     background-color: white;
-    padding: 0px;
+    padding: 0px 5px 0px 0.2px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+  
 }
  
 .btn-recherche
@@ -156,6 +159,7 @@ input
     border-radius: 10px;
     display: inline-block;
     margin: 15px;
+    font-family: 'Raleway', sans-serif;
     
 }
 
