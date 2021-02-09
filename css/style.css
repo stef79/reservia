@@ -92,7 +92,8 @@ p
     background-color: #0065FC;
     border-radius: 0px 10px 10px 0px;
     border: none;
-    height: 25px;
+    height: 40px;
+    
 }
 
 .bcg-gray
@@ -149,20 +150,10 @@ input
     
 } 
 
-.div-gray
-{
-    background-color: #f2f2f2;
-    border-radius: 10px 10px 10px 10px;
-    padding-left: 10px;
-    margin-bottom: 10px;
-}
+
 
 /*===================================================herbergement=====================================================*/
-.div-hebergement
-{
-    display: flex;
-    flex-direction: row;
-}
+
 
 
 /*====================================================populaires=======================================================*/
@@ -251,4 +242,51 @@ input
 
 {
     display: flex;
+}
+
+#sectionRecherche,#sectionFiltre
+{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#texteDansLaVille
+{
+    margin-bottom: 5px;
+}
+
+#nombreDeLogement
+{
+    margin-bottom: 15px;
+}
+
+
+/*-----------------------------------------------------------------------*/
+.danslaville
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.LesPlusPopulaires
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+
+.div-hebergement
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.div-gray
+{
+    background-color: #f2f2f2;
+    border-radius: 10px 10px 10px 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
 }
