@@ -1,17 +1,75 @@
+* {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
 /*-------------header------------*/
 header
 {
-    border: solid 1px yellow;
+    
     display: flex;
     flex-direction: column;
 }
 
 header .logo 
 {
-    border: solid 1px blue;
 }
 
 header .menu 
 {
-    border: solid 1px green;
+
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 6.25rem;
+}
+
+nav ul
+{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+	width:80%;
+	position: relative;
+    list-style: none;
+}
+
+.lienH a, .lienA a
+{
+    font-size: x-large;
+    display: FLEX;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.lienA, .lienH
+{
+    border-bottom: 3px solid #F2F2F2;
+    width: 50%;
+}
+
+.lienH:hover, .lienA:hover {
+    border-bottom: 3px solid #0065FC;
+    width: 50%;
+  }
+
+  .lienH a:hover, .lienA a:hover {
+    color: #0065FC;
+  }
+
+.lieninscription
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lieninscription a
+{
+    color:  #0065FC;
+    text-decoration: none;
+    font-weight: bold;
 }
