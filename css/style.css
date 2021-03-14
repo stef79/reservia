@@ -3,8 +3,7 @@
     font-weight: 400;
     font-size: 1rem;
     font-weight: bold;
-}
-/*-------------header------------*/
+}/*-------------header------------*/
 header
 {
     
@@ -80,6 +79,50 @@ nav ul
     font-weight: bold;
 }
 
+/*--------------------------------- body -------------------------------*/
+
+.divHebergement
+{
+    display:flex;
+    flex-direction: column-reverse;
+}
+
+.container
+{
+    display: flex;
+    background-color: lightgrey;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0px 10px 0px;
+    
+}
+
+.card
+{
+   display: flex;
+    border-radius: 5px;
+}
+
+.ville
+{
+   
+}
+
+.img-ville
+{
+    width: 100px;
+    height: 80px;
+}
+
+.populaire
+{
+   
+}
+
+.img-populaire
+{
+    
+}
 /*---------------------------------boutton------------------------------*/
 .btn-recherche
 {
