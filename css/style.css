@@ -38,7 +38,7 @@ nav ul
     list-style: none;
 }
 
-.lienH a, .lienA a
+.lien-hébergments a, .lien-activités a
 {
     font-size: x-large;
     display: FLEX;
@@ -49,18 +49,20 @@ nav ul
 
 }
 
-.lienA, .lienH
+.lien-activités, .lien-hébergments
 {
     border-bottom: 3px solid #F2F2F2;
     width: 50%;
 }
 
-.lienH:hover, .lienA:hover {
+.lien-hébergments:hover, .lien-activités:hover 
+{
     border-bottom: 3px solid#0065FC;
     width: 50%;
-  }
+}
 
-  .lienH a:hover, .lienA a:hover {
+  .lien-hébergments a:hover, .lien-activités a:hover 
+  {
     color: #0065FC;
     
   }
@@ -134,6 +136,11 @@ nav ul
     border: none;
     height: 40px;
     
+}
+
+h1, h3
+{
+    font-weight: bold;
 }
 
     
