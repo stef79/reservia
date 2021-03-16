@@ -38,19 +38,19 @@ nav ul
     list-style: none;
 }
 
-.lien-hébergments a, .lien-activités a
+.lien-hebergments a, .lien-activites a
 {
     font-size: x-large;
     display: FLEX;
     justify-content: center;
     text-decoration: none;
     color: black;
-    padding: 10px 0px 14px;
+    padding: 0px;
     margin: 0px;
 
 }
 
-.lien-activités, .lien-hébergments
+.lien-activites, .lien-hebergments
 {
     border-bottom: 3px solid #F2F2F2;
     width: 50%;
