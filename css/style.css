@@ -1,9 +1,10 @@
-* {
+{
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     font-size: 1rem;
     font-weight: bold;
-}/*-------------header------------*/
+}
+/*-------------header------------*/
 header
 {
     
@@ -29,41 +30,38 @@ nav {
 
 nav ul
 {
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-around;
-	align-items: center;
-	width:80%;
-	position: relative;
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-around;
+   align-items: center;
+   width:100%;
+   position: relative;
     list-style: none;
 }
 
-.lien-hebergments a, .lien-activites a
+.lien-hebergement a, .lien-activite a
 {
     font-size: x-large;
     display: FLEX;
     justify-content: center;
     text-decoration: none;
     color: black;
-    padding: 0px;
-    margin: 0px;
+    padding: 10px 0px 14px;
 
 }
 
-.lien-activites, .lien-hebergments
+.lien-activite, .lien-hebergement
 {
     border-bottom: 3px solid #F2F2F2;
     width: 50%;
 }
 
-.lien-hébergments:hover, .lien-activités:hover 
-{
+.lien-hebergement:hover, .lien-activite:hover {
     border-bottom: 3px solid#0065FC;
     width: 50%;
-}
+  }
 
-  .lien-hébergments a:hover, .lien-activités a:hover 
-  {
+  .lienH a:hover, .lienA a:hover {
     color: #0065FC;
     
   }
@@ -83,32 +81,32 @@ nav ul
 }
 
 /*--------------------------------- body -------------------------------*/
-
-.divHebergement
+.div-hebergement
 {
-    display:flex;
+    display: flex;
     flex-direction: column-reverse;
 }
 
 .container
 {
-    display: flex;
+    display: block;
     background-color: lightgrey;
     border-radius: 5px;
     padding: 5px;
     margin: 10px 0px 10px 0px;
-    
 }
 
 .card
 {
    display: flex;
-    border-radius: 5px;
+    border-radius: 10px;
+    border: solid 5px white;
+    margin: 5px 0px 5px 0px;
 }
 
 .ville
 {
-   
+   display: flex;
 }
 
 .img-ville
@@ -119,12 +117,45 @@ nav ul
 
 .populaire
 {
-   
+   display: flex;
 }
 
-.img-populaire
+.div-description
 {
-    
+    background-color: white;
+    width: 100%;
+    padding-left: 5px;
+}
+
+.score {
+    display: block;
+    font-size: 16px;
+    position: relative;
+    overflow: hidden;
+}
+
+.score-wrap {
+    display: inline-block;
+    position: relative;
+    height: 19px;
+}
+
+.score .stars-active {
+    color: #EEBD01;
+    position: relative;
+    z-index: 10;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.score .stars-inactive {
+    color: grey;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-text-stroke: initial;
+    /* overflow: hidden; */
 }
 /*---------------------------------boutton------------------------------*/
 .btn-recherche
@@ -143,5 +174,3 @@ h1, h3
 {
     font-weight: bold;
 }
-
-    

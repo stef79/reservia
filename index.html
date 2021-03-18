@@ -1,168 +1,65 @@
-<!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://kit.fontawesome.com/3967d006d1.js" crossorigin="anonymous"></script>
-        <meta charset="UTF-8" />
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/style-desktop.css"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap" rel="stylesheet">
-        <title>Reservia</title>
-    </head>
-
-    <body>
-
-        <header>
-            <div class="logo">
-                <img src="images/logo/Reservia.svg " class="logo" alt="logo"/>
-            </div>
-
-            <nav class="menu">
-                <ul>
-                    <li class="lien-hébergements"> <a href="#hébergements">hébergements</a> </li>
-                    <li class="lien-activités"> <a href="#Activités">Activités</a> </li>
-                </ul>
-                <div class="lieninscription">
-                    <a href="#sinscire">s'inscire</a>
+<DOCTYPE html>
+    <html lang="fr">
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <script src="https://kit.fontawesome.com/3967d006d1.js" crossorigin="anonymous"></script>
+            <meta charset="UTF-8" />
+            <link rel="stylesheet" href="css/style.css" media=" screen and (max-width: 1280px)"/>
+            <link rel="stylesheet" href="css/style-desktop.css"/>
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap" rel="stylesheet">
+            <title>Reservia</title>
+        </head>
+    
+        <body>
+    
+            <header>
+                <div class="logo">
+                    <img src="images/logo/Reservia.svg " class="logo" alt="logo"/>
                 </div>
-            </nav>
-                            
-        </header>
-        <main>
-            
-            <!--section recherche-->
-            <section id="recherche">
-                <div id="sectionRecherche">
-                    <div>
-                        <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
+    
+                <nav class="menu">
+                    <ul>
+                        <li class="lien-hebergement"> <a href="#hébergements">hébergements</a> </li>
+                        <li class="lien-activite"> <a href="#Activités">Activités</a> </li>
+                    </ul>
+                    <div class="lieninscription">
+                        <a href="#sinscire">s'inscire</a>
                     </div>
-                    
-                    <div id="texteDansLaVille">
-                        <p>En plein centre ville ou en pleine nature</p>
-                    </div>
-                    <div>
-                        <i class="fas fa-map-marker-alt bcg-gray map-gray"></i>
-                        <input type="search" name="ville" placeholder="Marseille,France">
-                        <button class="btn-Recherche">
-                            <i class="recherche">
-                            </i>
-                            Recherche
-                        </button> 
-                    </div>
-                </div>
-            </section>
-
-            <!--section filtres-->
-            <section id="filtres">
-
-                <div id="sectionFiltre">
-                    <label class="label-bold">Filtres</label>  
-            
-                    <button class="btn-filtre">
-                        <i class="fas fa-money-bill-wave-alt blue-icone"></i>
-                        Economique
-                    </button>
-                    <button class="btn-filtre"> 
-                        <i class="fas fa-child blue-icone"></i>
-                        Familial
-                    </button> 
-            
-                    <button class="btn-filtre">
-                        <i class="fas fa-heart blue-icone"></i>
-                        Romantiques
-                    </button>
-
-                    <button class="btn-filtre">
-                        <i class="fas fa-dog blue-icone"></i>
-                        Animaux Autorisés
-                    </button>
-
-                </div>
+                </nav>
+                                
+            </header>
+            <main>
                 
-                <div id="nombreDeLogement">
-                    <label><i class="fas fa-info-circle info-icone"></i> Plus de 500 logements sont disponibles dans cette ville</label>  
-                </div>
-            </section>
+                <!--section recherche-->
+                <section id="recherche">
+                    <div id="sectionRecherche">
+                        <div>
+                            <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
+                        </div>
+                        
+                        <div id="texteDansLaVille">
+                            <p>En plein centre ville ou en pleine nature</p>
+                        </div>
+                        <div>
+                            <i class="fas fa-map-marker-alt bcg-gray map-gray"></i>
+                            <input type="search" name="ville" placeholder="Marseille,France">
+                            <button class="btn-Recherche">
+                                <i class="recherche">
+                                </i>
+                                Recherche
+                            </button> 
+                        </div>
+                    </div>
+                </section>
+             
             
-            <section id="hebergement" class="divHebergement">
-                <div id="dansLaVille" class="container">
-                    <h1>Hebergement à Marseille</h1>
-                    <div class="card ville">
-                        <div class="img-ville">
-                            <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" width="180" height="100">
-                        </div>
-                        <div>
-                            
-                        </div>
-                    </div>
-                </div>
-                
-                <div id="lesPlusPopulaire" class="container">
-                    <div>
-                        <h1>Les plus populaires</h1>
-                    </div>
-                    <div class="card populaire">
-                        <div>
-                            <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                                 width="180" height="100">
-                        </div>
-                        <div class="div-description">
-                            <div>
-                                <h3>Hotel le soleil du matin</h3>
-                            </div>
-                            <div>
-                                <label>Nuit à partir de 128€</label>
-                            </div>
-                            <div id="stars">
-                                <span class="score">
-                                    <div class="score-wrap">
-                                        <span class="stars-active" style="width:88%">
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                        </span>
-                                        <span class="stars-inactive">
-                                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                                        </span>
-                                    </div>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card populaire">
-                        <div>
-                            <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                                 width="180" height="100">
-                        </div>
-                        <div class="div-description">
-                            <div>
-                                <h3>Hotel le soleil du matin</h3>
-                            </div>
-                            <div>
-                                <p>Nuit à partir de 128€</p>
-                            </div>
-                            <div id="stars">
-
-                            </div>
-                        </div>
-                    </div>
-            </div>
-         </section>
-
-        </main>
-        
-    </body>
-</html>
-
-
-
-
+    
+            </main>
+            
+        </body>
+    </html>
+    
+    
         
