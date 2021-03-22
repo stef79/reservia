@@ -12,20 +12,6 @@ header
 
 }
 
-
-
-.lieninscription
-{
-    display: flex;
-    justify-content: flex-end;
-}
-
-
-li
-{
-    display: inline;
-}
-
 nav
 {
     display: flex;
@@ -38,6 +24,12 @@ nav ul
 {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: flex-end;
+    order: 0;
+}
+
+li
+{
+    display: inline;
+    margin: 3px;
+    text-decoration: none;
 }

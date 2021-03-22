@@ -4,21 +4,17 @@
     font-size: 1rem;
     font-weight: bold;
 }
-/*-------------header------------*/
+/*------------------------header-----------------------*/
 header
 {
     
     display: flex;
-    flex-direction: column;
+    justify-content:space-between;
 }
 
 header .logo 
 {
-}
-
-header .menu 
-{
-
+    width: 6rem;
 }
 
 nav {
@@ -39,38 +35,16 @@ nav ul
     list-style: none;
 }
 
-.lien-hebergement a, .lien-activite a
+a
 {
-    font-size: x-large;
-    display: FLEX;
-    justify-content: center;
-    text-decoration: none;
-    color: black;
-    padding: 10px 0px 14px;
-
+    font-size: medium;
 }
 
-.lien-activite, .lien-hebergement
+@media screen and (min-width: 451px)
 {
-    border-bottom: 3px solid #F2F2F2;
-    width: 50%;
-}
-
-.lien-hebergement:hover, .lien-activite:hover {
-    border-bottom: 3px solid#0065FC;
-    width: 50%;
-  }
-
-  .lienH a:hover, .lienA a:hover {
-    color: #0065FC;
-    
-  }
-
-
-.lieninscription
-{
-    display: flex;
-    justify-content: flex-end;
+    a{
+        font-size: x-large;
+    }
 }
 
 .lieninscription a
@@ -78,12 +52,39 @@ nav ul
     color:  #0065FC;
     text-decoration: none;
     font-weight: bold;
+    margin-right: 10px;
+}
+
+.lien a
+{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    padding: 10px 0px 14px;
+}
+
+.lien
+{
+    border-bottom: 3px solid #f2f2f2;
+    width: 50%;
+}
+
+.lien:hover
+{
+    border-bottom: 3px solid #0065FC;
+    width:50%;
+}
+
+.lien a:hover
+{
+    color: #0065FC;
 }
 
 /*--------------------------------- body -------------------------------*/
 .div-hebergement
 {
-    display: flex;
+    display:flex;
     flex-direction: column-reverse;
 }
 
@@ -93,12 +94,12 @@ nav ul
     background-color: lightgrey;
     border-radius: 5px;
     padding: 5px;
-    margin: 10px 0px 10px 0px;
+    margin: 5px 0px 5px 0px;
 }
 
 .card
 {
-   display: flex;
+    display: flex;
     border-radius: 10px;
     border: solid 5px white;
     margin: 5px 0px 5px 0px;
@@ -106,7 +107,7 @@ nav ul
 
 .ville
 {
-   display: flex;
+    display: flex;
 }
 
 .img-ville
@@ -117,7 +118,7 @@ nav ul
 
 .populaire
 {
-   display: flex;
+    display: flex;
 }
 
 .div-description
@@ -127,35 +128,38 @@ nav ul
     padding-left: 5px;
 }
 
-.score {
+.score
+{
     display: block;
     font-size: 16px;
     position: relative;
+    height: 19px;
     overflow: hidden;
 }
 
-.score-wrap {
+.score-wrap
+{
     display: inline-block;
     position: relative;
     height: 19px;
 }
 
-.score .stars-active {
-    color: #EEBD01;
+.score .stars-active
+{
+    color:#EEBD01;
     position: relative;
-    z-index: 10;
-    display: inline-block;
+    display:inline-block;
     overflow: hidden;
     white-space: nowrap;
 }
 
-.score .stars-inactive {
+.score .stars-inactive
+{
     color: grey;
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 0;
     -webkit-text-stroke: initial;
-    /* overflow: hidden; */
 }
 /*---------------------------------boutton------------------------------*/
 .btn-recherche
