@@ -1,19 +1,17 @@
-*{
+* {
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     font-size: 1rem;
     font-weight: bold;
 }
-/*------------------------header-----------------------*/
-header
-{
-    
+
+/*-------------header------------*/
+header {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
-header .logo 
-{
+header .logo {
     width: 6rem;
 }
 
@@ -24,146 +22,132 @@ nav {
     height: 6.25rem;
 }
 
-nav ul
-{
-   display: flex;
-   flex-flow: row nowrap;
-   justify-content: space-around;
-   align-items: center;
-   width:100%;
-   position: relative;
+nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    position: relative;
     list-style: none;
 }
 
-a
-{
+.lieninscription {
+    position: absolute;
+    top: -60px;
+    right: -20px;
+    color: #0065FC;
+    text-decoration: none;
+}
+
+a {
     font-size: medium;
 }
 
-@media screen and (min-width: 451px)
-{
-    a{
+@media screen and (min-width: 451px) {
+    a {
         font-size: x-large;
     }
 }
 
-.lieninscription a
-{
-    color:  #0065FC;
-    text-decoration: none;
-    font-weight: bold;
-    margin-right: 10px;
-}
-
-.lien a
-{
+.lien a {
     display: flex;
     justify-content: center;
     text-decoration: none;
     color: black;
     padding: 10px 0px 14px;
+    font-size: 1em;
 }
 
-.lien
-{
-    border-bottom: 3px solid #f2f2f2;
+
+.lien {
+    border-bottom: 3px solid #F2F2F2;
     width: 50%;
 }
 
-.lien:hover
-{
+
+.lien:hover {
     border-bottom: 3px solid #0065FC;
-    width:50%;
+    width: 50%;
 }
 
-.lien a:hover
-{
+.lien a:hover {
     color: #0065FC;
 }
 
 /*--------------------------------- body -------------------------------*/
-.div-hebergement
-{
-    display:flex;
+.div-hebergement {
+    display: flex;
     flex-direction: column-reverse;
 }
 
-.container
-{
+.container {
     display: block;
     background-color: lightgrey;
     border-radius: 5px;
     padding: 5px;
-    margin: 5px 0px 5px 0px;
+    margin: 10px 0px 10px 0px;
 }
 
-.card
-{
+.card {
     display: flex;
     border-radius: 10px;
     border: solid 5px white;
     margin: 5px 0px 5px 0px;
 }
 
-.ville
-{
+.ville {
     display: flex;
 }
 
-.img-ville
-{
+.img-ville {
     width: 100px;
     height: 80px;
 }
 
-.populaire
-{
+.populaire {
     display: flex;
 }
 
-.div-description
-{
+.div-description {
     background-color: white;
     width: 100%;
     padding-left: 5px;
 }
 
-.score
-{
+.score {
     display: block;
     font-size: 16px;
     position: relative;
-    height: 19px;
     overflow: hidden;
 }
 
-.score-wrap
-{
+.score-wrap {
     display: inline-block;
     position: relative;
     height: 19px;
 }
 
-.score .stars-active
-{
-    color:#EEBD01;
+.score .stars-active {
+    color: #EEBD01;
     position: relative;
-    display:inline-block;
+    z-index: 10;
+    display: inline-block;
     overflow: hidden;
     white-space: nowrap;
 }
 
-.score .stars-inactive
-{
+.score .stars-inactive {
     color: grey;
     position: absolute;
-    top: 0px;
+    top: 0;
     left: 0;
     -webkit-text-stroke: initial;
+    /* overflow: hidden; */
 }
+
 /*---------------------------------boutton------------------------------*/
-.btn-recherche
-{
+.btn-recherche {
     color: white;
     /*border-top-right-radius: 150px 100px;
     border-bottom-right-radius: 150px 100px;*/
@@ -171,10 +155,11 @@ a
     border-radius: 0px 10px 10px 0px;
     border: none;
     height: 40px;
-    
+
 }
 
-h1, h3
-{
+h1, h3 {
     font-weight: bold;
 }
+
+
