@@ -1,7 +1,11 @@
+/*-------------Global------------*/
 * {
     font-family: "Raleway", sans-serif;
-    font-weight: 400;
     font-size: 1rem;
+}
+
+.bold
+{
     font-weight: bold;
 }
 
@@ -9,6 +13,7 @@
 header {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 header .logo {
@@ -28,8 +33,9 @@ nav ul {
     justify-content: space-around;
     align-items: center;
     width: 80%;
-    position: relative;
     list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
 .lienMenu {
     top: 0px;
@@ -38,8 +44,8 @@ nav ul {
 
 .lieninscription {
     position: absolute;
-    top: -60px;
-    right: -20px;
+    top: 0px;
+    right: 0px;
     color: #0065FC;
     text-decoration: none;
 }
@@ -119,7 +125,7 @@ a {
     padding-left: 5px;
 }
 
-.score {
+/*.score {
     display: block;
     font-size: 16px;
     position: relative;
@@ -159,11 +165,8 @@ a {
     border-radius: 0px 10px 10px 0px;
     border: none;
     height: 40px;
-
 }
 
-h1, h3 {
-    font-weight: bold;
-}
+
 
 
