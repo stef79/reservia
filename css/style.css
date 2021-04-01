@@ -9,6 +9,10 @@
     font-weight: bold;
 }
 
+.color
+{
+    color: black;
+}
 /*-------------header------------*/
 header {
     display: flex;
@@ -65,7 +69,7 @@ a {
     justify-content: center;
     text-decoration: none;
     color: black;
-    padding: 10px 0px 14px;
+    padding: 10px 0px 1px;
     font-size: 1em;
 }
 
@@ -78,7 +82,7 @@ a {
 
 .lien:hover {
     border-bottom: 3px solid #0065FC;
-    width: 50%;
+    width: 100%;
 }
 
 .lien a:hover {
@@ -167,6 +171,15 @@ a {
     height: 40px;
 }
 
+.maker
+{
+    display: flex;
+    background-color: #F2F2F2;
+    justify-content: space-around;
+    border-radius: 1px 0px 0px 1px;
+    align-items: center;
+    font-size: 1px;
+}
 
 
 
