@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html lang="fr">
+<DOCTYPE html>
+    <html lang="fr">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/3967d006d1.js" crossorigin="anonymous"></script>
         <meta charset="UTF-8" />
-        <link rel="stylesheet" href="css/style.css" media="screen and (min-width: 451px)"/>
-        <link rel="stylesheet" href="css/style-desktop.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/style-desktop.css" />
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap" rel="stylesheet">
@@ -13,48 +13,196 @@
     </head>
 
     <body>
-        <header>
-                <img src="images/logo/Reservia.svg " class="logo" alt="logo"/>
-                <nav class="lienMenu">
-                    <ul>
-                        <li class="lien"> <a href="#hébergements">Hébergements</a> </li>
-                        <li class="lien"> <a href="#Activités">Activités</a> </li>
-                        <li class="lieninscription"> <a href="#sinscire" class="bold">s'inscrire</a> </li>
-                    </ul>
-                </nav>
+    <header>
+        <img src="images/logo/Reservia.svg " class="logo" alt="logo"/>
+    </header>
+    <nav class="lienMenu">
+        <ul>
+            <li class="lien"> <a href="#hébergements">Hébergements</a> </li>
+            <li class="lien"> <a href="#Activités">Activités</a> </li>
+            <li class="lieninscription"> <a href="#sinscire">s'inscrire</a> </li>
+        </ul>
+    </nav>
+    <main>
 
-        </header>
-    
-        <main>
+        <!--section recherche-->
+        <section id="recherche" class="div-recherche">
+            <div id="sectionRecherche">
+                <div>
+                    <h1 class="bold">Trouvez votre hébergement pour des vacances de rêves</h1>
+                </div>
 
-            <!--section recherche-->
-            <section id="recherche">
-                <div id="sectionRecherche">
+                <div id="texteDansLaVille">
+                    <label>En plein centre ville ou en pleine nature</label>
+                </div>
+                <div>
+                    <i class="fas fa-map-marker-alt bcg-gray map-gray"></i>
+                    <input type="search" name="ville" placeholder="Marseille,France">
+                    <button class="btn-Recherche">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+
+                <div>
+                    <h2 class="bold">Filtres</h2>
+                </div>
+
+                <div class="div-filtre">
                     <div>
-                        <h1 class="bold">Trouvez votre hébergement </br>pour des vacances de rêves</h1>
+                        <button class="btn-filtre">
+                            <i class="fas fa-money-bill-wave"></i>
+                            Economique
+                        </button>
                     </div>
 
-                    <div id="texteDansLaVille">
-                        <p>En plein centre ville ou en pleine nature</p>
-                    </div>
                     <div>
-                        <i class="fas fa-map-marker-alt bcg-gray map-gray"></i>
-                        <input type="search" name="ville" placeholder="Marseille, France">
-                        <button class="btn-Recherche">
-                            <i class="recherche">
-                            </i>
-                            Recherche
+                        <button class="btn-filtre">
+                            <i class="fas fa-child"></i>
+                            Familial
+                        </button>
+                    </div>
+
+                    <div>
+                        <button class="btn-filtre">
+                            <i class="fas fa-heart"></i>
+                            Romantique
+                        </button>
+                    </div>
+
+                    <div>
+                        <button class="btn-filtre">
+                            <i class="fas fa-dog"></i>
+                            Animaux autorisés
                         </button>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
+        <section id="hebergement" class="div-hebergement">
+            <div id="dansLaVille" class="container div-ville">
+                <div>
+                    <h1 class="bold">Hebergement à Marseille</h1>
+                </div>
 
+                <div class="card ville">
+                    <div class="img-ville">
+                        <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                             width="180" height="100" class="img-card">
+                    </div>
+                    <div class="div-description">
+                        <div>
+                            <h3>Auberge de la Cannebière</h3>
+                        </div>
+                        <div>
+                            <label>Nuit à partir de 25&euro;</label>
+                        </div>
+                        <div>
+                                <span class="score">
+                                    <div class="score-wrap">
+                                        <span class="stars-active" style="width:88%">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </span>
+                                        <span class="stars-inactive">
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                        </span>
+                                    </div>
+                                </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        </main>
-
+            <div id="lesPlusPopulaire" class="container div-populaire">
+                <div class="div-title-populaire">
+                    <div class="div-90-percent">
+                        <h1 class="bold">Les plus populaires</h1>
+                    </div>
+                    <div class="div-10-percent">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                </div>
+                <div class="card populaire">
+                    <div>
+                        <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                             width="180" height="100" class="img-card">
+                    </div>
+                    <div class="div-description">
+                        <div>
+                            <h3>Hotel le soleil du matin</h3>
+                        </div>
+                        <div>
+                            <label>Nuit à partir de 128&euro;</label>
+                        </div>
+                        <div>
+                                <span class="score">
+                                    <div class="score-wrap">
+                                        <span class="stars-active" style="width:88%">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </span>
+                                        <span class="stars-inactive">
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                        </span>
+                                    </div>
+                                </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card populaire">
+                    <div>
+                        <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                             width="180" height="100" class="img-card">
+                    </div>
+                    <div class="div-description">
+                        <div>
+                            <h3>Hotel le soleil du matin</h3>
+                        </div>
+                        <div>
+                            <label>Nuit à partir de 128&euro;</label>
+                        </div>
+                        <div>
+                                <span class="score">
+                                    <div class="score-wrap">
+                                        <span class="stars-active" style="width:88%">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </span>
+                                        <span class="stars-inactive">
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                        </span>
+                                    </div>
+                                </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     </body>
-</html>
+    </html>
 
 
 
