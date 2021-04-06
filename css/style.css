@@ -98,6 +98,12 @@ and (-webkit-device-pixel-ratio : 2) {
         color: #0065FC;
     }
 
+
+       #mon-champ-recherche::placeholder
+      {
+          color:black;
+          font-weight: bold;
+      }
     /*--------------------------------- body -------------------------------*/
     .container {
         display: block;
